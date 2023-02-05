@@ -1,0 +1,30 @@
+body {
+  color: white;
+  background: black;
+  border: rgb(47, 51, 54);
+  font-family: "Arial";
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.wd-web-title {
+  color: white;
+  font-size: 20px;
+  marigin: 0px;
+}
+
+.wd-small-text {
+  margin-top: 0px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  border: 0;
+  margin-top: 12px;
+  background:lightgray;
+}
+

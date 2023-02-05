@@ -15,11 +15,13 @@ body {
   border-radius: 50px;
   padding-inline: 5% 10%;
   writing-mode: horizontal-tb;
+
 }
 
 .wd-icon {
   margin-left: 12px;
   color: rgb(29,161,242);
+  font-size: 25px;
 }
 
 ul {
@@ -72,6 +74,9 @@ hr {
   margin-bottom: 5px;
 }
 
+.wd-extra-space {
+  margin-top: 25px;
+}
 
 .wd-small-title {
   font-size: 13px;

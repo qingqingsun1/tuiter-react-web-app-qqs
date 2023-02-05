@@ -15,6 +15,7 @@ body {
   border-radius: 50px;
   padding-inline: 5% 10%;
   writing-mode: horizontal-tb;
+  padding-left: 16px;
 
 }
 
@@ -95,6 +96,17 @@ hr {
 .wd-text {
   width: 70%;
   float: left;
+}
+
+.wd-post-content-primary {
+  color: white;
+  padding: 1px 0;
+}
+
+.wd-post-logo-round {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
 }
 
 .wd-title {

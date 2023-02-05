@@ -1,0 +1,177 @@
+body {
+  color: white;
+  background: black;
+  border-color: rgb(47, 51, 54);
+  font-family: "Arial";
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.wd-big-title {
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.wd-web-title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  marigin: 0px;
+}
+
+.wd-small-text {
+  margin-top: 0px;
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.wd-blue{
+  color:blue;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  border: 0;
+  margin-top: 12px;
+  background:rgb(110, 118, 125);
+}
+
+.wd-post-chunk{
+  clear: both;
+  display: flex;
+}
+
+.wd-avatar {
+  margin-left: 16px;
+  margin-top: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+
+.wd-light-gray {
+  color: rgb(110, 118, 125);
+}
+
+.wd-three-dot {
+  color: rgb(110, 118, 125);
+  font-weight: normal;
+  font-size: 20px;
+  position: relative;
+  float: right;
+  margin-right: 12px;
+}
+
+.wd-three-dots {
+  font-size: 20px;
+  position: relative;
+  float: right;
+  margin-right: 12px;
+}
+
+.wd-post-text{
+  position: relative;
+  float: left;
+}
+
+.wd-name {
+  color: white;
+  font-size: 15px;
+}
+
+.wd-light-gray{
+  color: rgb(110, 118, 125);
+}
+
+
+h2 {
+  margin: 12px;
+  font-size: 15px;
+  font-weight: normal;
+  width: 506px;
+}
+
+.wd-rounded-corners-top-around {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(110, 118, 125);
+  margin-left: 12px;
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wd-rounded-corners-bottom-around {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(110, 118, 125);
+  margin-left: 12px;
+  width: 504px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.wd-text-title{
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wd-text-content{
+  color: rgb(110, 118, 125);
+  padding: 12px;
+  font-size: 15px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.wd-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 504px;
+  height: 264px;
+}
+
+.wd-icons-space{
+  float: left;
+  width: 25%;
+
+}
+
+.wd-icon-margin{
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 504px;
+}
+
+.wd-icon-number-space {
+  margin-right: 12px;
+}
+
+.wd-red-heart{
+  text-decoration:none;
+  color: red;
+}
+
+.wd-other-icons{
+  text-decoration:none;
+  color: rgb(110, 118, 125);
+}
+
+.grid-row {
+  clear: both;
+  display: flex;
+}

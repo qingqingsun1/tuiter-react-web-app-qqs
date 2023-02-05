@@ -335,6 +335,7 @@ p#id-selector-2 {
 
 
 .animation-keyframes {
+  animation-iteration-count: infinite;
   position: relative;
   top: 0px;
   animation-duration: 7s;
@@ -902,8 +903,15 @@ and (max-width: 600px) {
     background-color: yellow;
   }
 
-  .media-query {
-    background-color: red;
+  .media-query-1 {
+    color: black;
+  }
+  .media-query-2 {
+    background-color: lightcoral;
+    color: black;
+  }
+  .media-query-3 {
+    background-color: lightblue;
     color: white;
   }
 }
@@ -914,21 +922,18 @@ and (max-width: 600px) {
     background-color: blue;
     color: white;
   }
-  .media-query {
-    background-color: yellow;
+  .media-query-1 {
+    color: white;
+  }
+  .media-query-2 {
+    background-color: lightgoldenrodyellow;
     color: black;
   }
-}
-@media (min-width: 1200px)
-  and (max-width: 1800px) {
-  body {
-    background-color: red;
-    color: white;
-  }
-  .media-query {
-    background-color: blue;
+  .media-query-3 {
+    background-color: lightpink;
     color: white;
   }
 }
+
 
 

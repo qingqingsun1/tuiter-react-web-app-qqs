@@ -9,7 +9,7 @@
 }
 
 .wd-primary-blue {
-  color: #0275d8;
+  color: #56a5e8;
 }
 
 .wd-text-above-img {
@@ -17,7 +17,34 @@
   left: 27px;
 }
 
-wd-text-above-img1{
-  bottom: 10px;
-  left: 25px;
+.bottom-left {
+  position: absolute;
+  bottom: 48px;
+  left: 27px;
+  color: red;
+}
+
+.change-bg-color{
+  background-color: #f1f5f5;
+}
+
+.change-border-ration{
+  border-radius: 25px;
+}
+
+.nav-link{
+  color: grey;
+}
+
+.active{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-width: 5px;
+  border-color: #0275d8;
+  border-style: solid;
+}
+
+.remove-bottom-line {
+  border-bottom: 0 none;
 }

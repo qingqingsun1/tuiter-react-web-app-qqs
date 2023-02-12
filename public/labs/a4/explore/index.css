@@ -57,4 +57,13 @@
 .no-underline{
   text-decoration: none;
   color: grey;
+  margin-right: 17px;
+}
+
+.font-size-small{
+  font-size:14px;
+}
+
+.wider-button{
+  padding: 4px 18px;
 }

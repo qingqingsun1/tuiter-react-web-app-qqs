@@ -6,141 +6,104 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="index.css"
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         rel="stylesheet"/>
-  <link rel="stylesheet"
-        href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="index.css" rel="stylesheet"/>
 </head>
+
 <body>
 
-<a href = "../navigation.html">Back</a>
 
-
-<div class = "wd-whole-page">
-  <div>
-    <form class="no-submit">
-<!--    <i class="fa-solid fa-magnifying-glass">Search</i>-->
-    <input class = "wd-search" placeholder = "Search Tuiter"/>
-    <a href = "explore-settings.html" class ="wd-icon"><span>&#9881;</span></a>
-<!--    <i href = "explore-settings.html" class="wd-icon fa-sharp fa-solid fa-gear"></i>-->
-    </form>
-  </div>
-
-
-  <div>
-    <div class = "wd-list-title">
-      <ul>
-        <li class="wd-link-highlighted">
-          <a class="wd-list-padding-r" href="#">For you</a>
-        </li>
-        <li >
-          <a class="wd-list-padding-l wd-list-padding-r" href="#">Trending</a>
-        </li>
-        <li>
-          <a class="wd-list-padding-l wd-list-padding-r" href="#">COVID-19</a>
-        </li>
-        <li>
-          <a class="wd-list-padding-l wd-list-padding-r" href="#">News</a>
-        </li>
-        <li>
-          <a class="wd-list-padding-l wd-list-padding-r" href="#">Sports</a>
-        </li>
-        <li>
-          <a class="wd-list-padding-l wd-list-padding-r" href="#">Entertainment</a>
-        </li>
-      </ul>
-      <hr class="wd-hr">
-    </div>
-  </div>
-
-  <hr>
-
-  <div class ="wd-c">
-    <h3 class="wd-small-title">Trending in Science</h3>
-    <h1>Starship</h1>
-    <h3 class="wd-small-title">55.5K Tweets</h3>
-  </div>
-
-  <div class ="wd-c wd-extra-space">
-    <h3 class="wd-small-title">Sports · Trending</h3>
-    <h1>Joe Rogan</h1>
-    <h3 class="wd-small-title">5,218 Tweets</h3>
-  </div>
-
-  <hr>
-
-  <div class ="wd-d">
-    <div class="wd-text">
-      <div class="wd-title">
-        <label>
-          <img class="wd-post-logo-round" src="sign.jpg" alt="">
-        <span class="wd-author">The New York Times</span>
-          <img class="wd-post-logo-round" src="check.jpg" alt="">
-        <span class="wd-small-time"> · Yesterday</span>
-        </label>
+<div class="container pt-2">
+  <div class="row">
+    <div class = "col-2 col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2">
+      <div class = "list-group">
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fab fa-twitter"></i></a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fas fa-home"></i>
+          <div class="d-none d-xl-inline">Home</div></a>
+        <a href="#" class="list-group-item list-group-item-action active">
+          <i class="fab fa-hashtag"></i>
+          <div class="d-none d-xl-inline">Explore</div></a>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fas fa-bell"></i>
+          <div class="d-none d-xl-inline">Notifications</div></a>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="d-none d-xl-inline">Messages</div></a>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fa-sharp fa-solid fa-bookmark"></i>
+          <div class="d-none d-xl-inline">Bookmarks</div></a>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fa-solid fa-list"></i>
+          <div class="d-none d-xl-inline">Lists</div></a>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <i class="fa-solid fa-user"></i>
+          <div class="d-none d-xl-inline">Profile</div></a>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <span class="position-relative">
+              <i class="fas fa-circle"></i>
+              <i class="fa-solid fa-ellipsis position-absolute wd-more-icon fa-xs" style="color: white"></i>
+          </span>
+          <div class="d-none d-xl-inline">More</div></a>
+        </a>
       </div>
-      <h1>CNN's Cuomo conundrum: A star anchor with a brother in trouble</h1>
+      <button type="button" class="btn btn-primary rounded-pill mt-2 w-100">Tweet</button>
     </div>
 
-    <div class="wd-img-chunk">
-      <img class="wd-img" src="ny.jpg"/>
-    </div>
-    <hr>
-  </div>
 
-  <div>
-    <div class="wd-text">
-      <h3 class="wd-small-title">COVID-19 · LIVE</h3>
-      <h1>COVID-19: News and updates for Massachusetts</h1>
-    </div>
+    <div class = "col-10 col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10">
+      <div class = "row align-items-center">
+        <div class = "col col-11 position-relative">
+          <input class = "rounded-pill ps-5 form-control" placeholder="Search Twitter">
+          <i class="fa-solid fa-magnifying-glass position-absolute wd-search-icon"></i>
+        </div>
+        <div class="col col-1">
+          <i class="fa-solid fa-gear fa-2x float-end wd-primary-blue"></i>
+        </div>
 
-    <div class="wd-img-chunk">
-      <img class="wd-img" src="covid.jpg"/>
-    </div>
-  </div>
+        <div>
+          <ul class="nav nav-tabs mt-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
 
-  <hr>
-
-  <div>
-    <div class="wd-text">
-      <div class="wd-title">
-        <span class="wd-author">Bloomberg Opinion</span>
-        <span class="wd-small-time"> · Yesterday</span>
       </div>
-      <h1>Thinking about getting a booster? Read this first.</h1>
     </div>
 
-    <div class="wd-img-chunk">
-      <img class="wd-img" src="bloom.jpg"/>
+
+
+
+    <div class = "col col-xxl-4 col-xl-4 col-lg-4 .d-lg-block .d-md-block .d-sm-block">
+      <div>
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
     </div>
+
   </div>
-
-  <hr>
-
-  <div>
-    <h3 class="wd-small-title">Trending in United States</h3>
-    <h1>Wonder Bread</h1>
-    <h3 class="wd-small-title">1,259 Tweets</h3>
-  </div>
-
-  <hr>
-
-  <div>
-    <div class="wd-text">
-      <h3 class="wd-small-title">Lorem Ipsum</h3>
-      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h1>
-    </div>
-    <div class="wd-img-chunk">
-      <img class="wd-img" src="news.jpg"/>
-    </div>
-  </div>
-
-  <hr>
-
 </div>
-
-</div>
-
-
 </body>
+
 </html>

@@ -48,3 +48,13 @@
 .remove-bottom-line {
   border-bottom: 0 none;
 }
+
+.ul{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.no-underline{
+  text-decoration: none;
+  color: grey;
+}

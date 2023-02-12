@@ -16,50 +16,57 @@
 
 
 <div class="container pt-2">
+
   <div class="row">
+
+<!--left part-->
     <div class = "col-2 col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2">
       <div class = "list-group">
         <a href="#" class="list-group-item list-group-item-action">
           <i class="fab fa-twitter"></i></a>
-        <a href="#" class="list-group-item list-group-item-action">
-          <i class="fas fa-home"></i>
+
+        <a href="../home.html" class="list-group-item list-group-item-action">
+          <i class="fa-solid fa-house"></i>
           <div class="d-none d-xl-inline">Home</div></a>
-        <a href="#" class="list-group-item list-group-item-action active">
+
+        <a href="index.html" class="list-group-item list-group-item-action active">
           <i class="fab fa-hashtag"></i>
-          <div class="d-none d-xl-inline">Explore</div></a>
+          <div class="d-none d-xl-inline">Explore</div>
         </a>
-        <a href="#" class="list-group-item list-group-item-action">
+
+        <a href="notifications.html" class="list-group-item list-group-item-action">
           <i class="fas fa-bell"></i>
           <div class="d-none d-xl-inline">Notifications</div></a>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
+
+        <a href="messages.html" class="list-group-item list-group-item-action">
           <i class="fa-solid fa-envelope"></i>
           <div class="d-none d-xl-inline">Messages</div></a>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
+
+        <a href="../bookmarks/index.html" class="list-group-item list-group-item-action">
           <i class="fa-sharp fa-solid fa-bookmark"></i>
           <div class="d-none d-xl-inline">Bookmarks</div></a>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
+
+        <a href="lists.html" class="list-group-item list-group-item-action">
           <i class="fa-solid fa-list"></i>
           <div class="d-none d-xl-inline">Lists</div></a>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
+
+        <a href="../profile.html" class="list-group-item list-group-item-action">
           <i class="fa-solid fa-user"></i>
           <div class="d-none d-xl-inline">Profile</div></a>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
+
+        <a href="more.html" class="list-group-item list-group-item-action">
           <span class="position-relative">
               <i class="fas fa-circle"></i>
               <i class="fa-solid fa-ellipsis position-absolute wd-more-icon fa-xs" style="color: white"></i>
           </span>
           <div class="d-none d-xl-inline">More</div></a>
-        </a>
+
       </div>
       <button type="button" class="btn btn-primary rounded-pill mt-2 w-100">Tweet</button>
     </div>
 
 
+<!--    center part-->
     <div class = "col-10 col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10">
       <div class = "row align-items-center">
         <div class = "col col-11 position-relative">
@@ -73,30 +80,79 @@
         <div>
           <ul class="nav nav-tabs mt-2">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" href="for-you.html">For you</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="trending.html">Trending</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="entertainment.html">Entertainment</a>
             </li>
           </ul>
         </div>
+
+<!--        text above img use relative-->
+        <div class="position-relative mt-2">
+          <img src="../../images/starship.png" width="100%">
+          <h2 class="position-absolute text-white wd-text-above-img">SpaceX's Starship</h2>
+        </div>
+
+        <ul class="list-group">
+          <li class="list-group-item">
+<!--text-->
+            <div class="row justify-content-center align-items-center">
+              <div class="col-9 col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-9">
+                <div class="text-secondary">Web Development</div>
+                <span class="fw-bolder">ReactJS</span>
+                <i class="fas fa-check-circle"></i>
+                <span class="text-secondary">- 2h</span>
+                <div class="fw-bolder">ReactJS is a component based front end library that makes it very easy to build Single Page Applications for SPAs</div>
+              </div>
+<!--img-->
+              <div class="col-3 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-3">
+                <img src="../../images/react.svg" class="img-fluid float-end rounded-3">
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item">
+            <div class="col-9 col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-9">
+              <span class="fw-bolder">JavaScript</span>
+              <i class="fas fa-check-circle"></i>
+              <span class="text-secondary">- 2h</span>
+              <div class="text-secondary">123K Tweets</div>
+            </div>
+          </li>
+
+          <li class="list-group-item">Morbi leo risus</li>
+
+          <li class="list-group-item">Porta ac consectetur ac</li>
+
+        </ul>
+
 
       </div>
     </div>
 
 
-
-
+<!--right part-->
     <div class = "col col-xxl-4 col-xl-4 col-lg-4 .d-lg-block .d-md-block .d-sm-block">
       <div>
         <ul class="list-group">
-          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Who to follow</li>
+
           <li class="list-group-item">Dapibus ac facilisis in</li>
+
           <li class="list-group-item">Morbi leo risus</li>
+
           <li class="list-group-item">Porta ac consectetur ac</li>
+
           <li class="list-group-item">Vestibulum at eros</li>
         </ul>
       </div>

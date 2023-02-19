@@ -2,7 +2,6 @@ import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
   return(`
-
      <div class="row align-items-center">
         <div class="col col-11 position-relative">
           <input class="ps-5 form-control rounded-pill" placeholder="Search Twitter">

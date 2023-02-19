@@ -5,8 +5,8 @@ function exploreComponent() {
 
               
               <div class="col-10 col-lg-7 col-xl-6 bg-primary text-white">
-              <h3>ExploreComponent</h3>
-              ${PostSummaryList}
+<!--              <h3>ExploreComponent</h3>-->
+                  ${PostSummaryList()}
 
               </div>
 

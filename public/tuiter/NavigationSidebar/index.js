@@ -47,6 +47,34 @@ const NavigationSidebar = () => {
         </span>
         <div class="d-none d-xl-inline">More</div>
       </a>
+      
+            <script>
+        if (window.location.pathname.endsWith("/")) {
+          $('#tuiter').addClass('active');
+        }
+        if (window.location.pathname.endsWith("HomeScreen/index.html")) {
+          $('#homescreen').addClass('active');
+        }
+        if (window.location.pathname.endsWith("ExploreScreen/index.html")) {
+          $('#explorescreen').addClass('active');
+        }
+        if (window.location.pathname.endsWith("notifications.html")) {
+          $('#notifications').addClass('active');
+        }
+        if (window.location.pathname.endsWith("bookmarks/index.html")) {
+          $('#bookmarks').addClass('active');
+        }
+        if (window.location.pathname.endsWith("lists.html")) {
+          $('#lists').addClass('active');
+        }
+        if (window.location.pathname.endsWith("profile.html")) {
+          $('#profile').addClass('active');
+        }
+        if (window.location.pathname.endsWith("more.html")) {
+          $('#more').addClass('active');
+        }
+      </script>
+      
    </div>
    
    <div class="d-grid mt-2">

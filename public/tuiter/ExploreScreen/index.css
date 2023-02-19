@@ -158,6 +158,9 @@
 /*  left: 22px;*/
 /*}*/
 
+body{
+  background-color: black;
+}
 .wd-search-tuiter {
   bottom: 12px;
   left: 25px;

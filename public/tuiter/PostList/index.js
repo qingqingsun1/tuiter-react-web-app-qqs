@@ -7,7 +7,8 @@ const PostList = () => {
       posts.map((post, index) => {
         return(PostItem(post, index));
       }).join('')
-  }
+    }
   `);
 }
+
 export default PostList;

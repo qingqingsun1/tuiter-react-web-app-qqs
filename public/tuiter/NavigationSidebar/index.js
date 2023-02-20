@@ -48,7 +48,7 @@ const NavigationSidebar = () => {
         <div class="d-none d-xl-inline">More</div>
       </a>
       
-            <script>
+        <script>
         if (window.location.pathname.endsWith("/")) {
           $('#tuiter').addClass('active');
         }

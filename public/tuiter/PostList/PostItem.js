@@ -52,4 +52,5 @@ const PostItem = (post, index) => {
     </li>
   `)
 }
+
 export default PostItem;

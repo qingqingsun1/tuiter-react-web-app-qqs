@@ -1,0 +1,14 @@
+.wd-more-icon {
+  top: 3px;
+  left: 2px;
+}
+
+.wd-rounded-top-frame {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wd-rounded-bottom-frame {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

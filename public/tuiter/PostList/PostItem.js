@@ -12,7 +12,7 @@ const PostItem = (post, index) => {
           <span> · ${post.time}</span>
           <i class="fas fa-ellipsis-h float-end" style="color: gray"></i>
           <div style="color: white">${post.comment}</div>
-          <img src="${post.image}" class="mt-2 border border-secondary wd-rounded-top-frame img-fluid" id="image-${index}">
+          <img src="${post.image}" class="img-fluid mt-2 border border-secondary wd-rounded-top-frame" id="image-${index}" alt="Responsive image">
           
           <div class="p-3 border border-secondary wd-rounded-bottom-frame" height="100px" id="content-box-${index}">
             <div style="color: white" id="post-title-${index}">${post.title}</div>
@@ -52,5 +52,7 @@ const PostItem = (post, index) => {
     </li>
   `)
 }
-
 export default PostItem;
+
+
+

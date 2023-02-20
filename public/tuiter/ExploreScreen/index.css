@@ -158,12 +158,15 @@
 /*  left: 22px;*/
 /*}*/
 
-body{
-  background-color: black;
-}
+
 .wd-search-tuiter {
   bottom: 12px;
   left: 25px;
+}
+
+.wd-more-icon {
+  top: 3px;
+  left: 2px;
 }
 
 .wd-cog {
@@ -177,7 +180,3 @@ body{
   font-weight: bold;
 }
 
-.wd-more-icon {
-  top: 3px;
-  left: 2px;
-}

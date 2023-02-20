@@ -1,4 +1,4 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
   return(`
 
    <div class="list-group" id="navbar">
@@ -6,12 +6,12 @@ const NavigationSidebar = () => {
        <i class="fab fa-twitter"></i></a>
        
        <! -- continue rest of list, e.g.,Home, Explore, Notifications, Messages, etc. -->
-      <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action" id="homescreen">
+      <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${active==='home'?'active':''}" id="homescreen">
         <i class="fas fa-home"></i>
         <div class="d-none d-xl-inline">Home</div>
       </a>
       
-      <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action" id="explorescreen">
+      <a href="../ExploreScreen/index.html" class="list-group-item list-group-item-action ${active==='explore'?'active':''}" id="explorescreen">
         <i class="fas fa-hashtag"></i>
         <div class="d-none d-xl-inline">Explore</div>
       </a>
@@ -48,32 +48,32 @@ const NavigationSidebar = () => {
         <div class="d-none d-xl-inline">More</div>
       </a>
       
-        <script>
-        if (window.location.pathname.endsWith("/")) {
-          $('#tuiter').addClass('active');
-        }
-        if (window.location.pathname.endsWith("HomeScreen/index.html")) {
-          $('#homescreen').addClass('active');
-        }
-        if (window.location.pathname.endsWith("ExploreScreen/index.html")) {
-          $('#explorescreen').addClass('active');
-        }
-        if (window.location.pathname.endsWith("notifications.html")) {
-          $('#notifications').addClass('active');
-        }
-        if (window.location.pathname.endsWith("bookmarks/index.html")) {
-          $('#bookmarks').addClass('active');
-        }
-        if (window.location.pathname.endsWith("lists.html")) {
-          $('#lists').addClass('active');
-        }
-        if (window.location.pathname.endsWith("profile.html")) {
-          $('#profile').addClass('active');
-        }
-        if (window.location.pathname.endsWith("more.html")) {
-          $('#more').addClass('active');
-        }
-      </script>
+<!--        <script>-->
+<!--        if (window.location.pathname.endsWith("/")) {-->
+<!--          $('#tuiter').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("HomeScreen/index.html")) {-->
+<!--          $('#homescreen').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("ExploreScreen/index.html")) {-->
+<!--          $('#explorescreen').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("notifications.html")) {-->
+<!--          $('#notifications').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("bookmarks/index.html")) {-->
+<!--          $('#bookmarks').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("lists.html")) {-->
+<!--          $('#lists').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("profile.html")) {-->
+<!--          $('#profile').addClass('active');-->
+<!--        }-->
+<!--        if (window.location.pathname.endsWith("more.html")) {-->
+<!--          $('#more').addClass('active');-->
+<!--        }-->
+<!--      </script>-->
       
    </div>
    

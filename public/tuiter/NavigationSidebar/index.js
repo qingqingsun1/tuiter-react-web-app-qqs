@@ -47,7 +47,7 @@ const NavigationSidebar = (active) => {
         </span>
         <div class="d-none d-xl-inline">More</div>
       </a>
-      
+
       
    </div>
    
@@ -58,4 +58,3 @@ const NavigationSidebar = (active) => {
    </div>
  `);
 }
-export default NavigationSidebar;

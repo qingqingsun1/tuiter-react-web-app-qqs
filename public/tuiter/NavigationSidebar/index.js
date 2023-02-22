@@ -47,33 +47,7 @@ const NavigationSidebar = (active) => {
         </span>
         <div class="d-none d-xl-inline">More</div>
       </a>
-      
-<!--        <script>-->
-<!--        if (window.location.pathname.endsWith("/")) {-->
-<!--          $('#tuiter').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("HomeScreen/index.html")) {-->
-<!--          $('#homescreen').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("ExploreScreen/index.html")) {-->
-<!--          $('#explorescreen').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("notifications.html")) {-->
-<!--          $('#notifications').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("bookmarks/index.html")) {-->
-<!--          $('#bookmarks').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("lists.html")) {-->
-<!--          $('#lists').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("profile.html")) {-->
-<!--          $('#profile').addClass('active');-->
-<!--        }-->
-<!--        if (window.location.pathname.endsWith("more.html")) {-->
-<!--          $('#more').addClass('active');-->
-<!--        }-->
-<!--      </script>-->
+
       
    </div>
    
@@ -84,21 +58,3 @@ const NavigationSidebar = (active) => {
    </div>
  `);
 }
-export default NavigationSidebar;
-
-// const NavigationSidebar = () => {
-//   return(`
-// <div class="list-group">
-// <a class="list-group-item" href="/">
-// <i class="fab fa-twitter"></i></a>
-// <!-- continue rest of list, e.g.,
-// Home, Explore, Notifications, Messages, etc. -->
-// </div>
-// <div class="d-grid mt-2">
-// <a href="tweet.html"
-// class="btn btn-primary btn-block rounded-pill">
-// Tweet</a>
-// </div>
-// `);
-// }
-// export default NavigationSidebar;

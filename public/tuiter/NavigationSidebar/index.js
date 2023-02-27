@@ -58,3 +58,5 @@ const NavigationSidebar = (active) => {
    </div>
  `);
 }
+
+export default NavigationSidebar;
